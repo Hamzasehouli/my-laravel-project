@@ -36,6 +36,6 @@
         }
     ],
     "require": {
-        "Hamzasehouli/my-laravel-project": "master"
+        "hamzasehouli/my-laravel-project": "master"
     }
 }
