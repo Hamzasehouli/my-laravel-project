@@ -1,0 +1,21 @@
+{
+    "name": "hamzasehouli/my-laravel-package",
+    "description": "This is my Laravel package.",
+    "type": "library",
+    "require": {
+        "illuminate/support": "12.x-dev",
+        "php": ">=8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hamzasehouli\\MyLaravelPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hamza Sehouli"
+        }
+    ],
+    "minimum-stability": "dev"
+}
