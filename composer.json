@@ -7,6 +7,16 @@
         "illuminate/support": "^8.12|^9.0|^10.0|^11.0|^12.0"
     },
     "license": "MIT",
+    "extra": {
+        "branch-alias": {
+            "master": "1.0.1"
+        },
+        "laravel": {
+            "providers": [
+                "Hamzasehouli\\MyLaravelPackage\\MyLaravelPackageServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "Hamzasehouli\\MyLaravelPackage\\": "src/"
@@ -17,5 +27,15 @@
             "name": "Hamza Sehouli"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Hamzasehouli/my-laravel-project"
+        }
+    ],
+    "require": {
+        "Hamzasehouli/my-laravel-project": "master"
+    }
 }
