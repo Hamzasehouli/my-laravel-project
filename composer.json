@@ -34,8 +34,5 @@
             "type": "vcs",
             "url": "https://github.com/Hamzasehouli/my-laravel-package"
         }
-    ],
-    "require": {
-        "hamzasehouli/my-laravel-package": "master"
-    }
+    ]
 }
