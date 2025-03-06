@@ -11,7 +11,7 @@ class MyLaravelPackageServiceProvider extends ServiceProvider
         // Load middleware, routes, views, publishing config and migrations, assets, etc., as long as all service providers that might be used are registered.
         // Publish config file
         $this->publishes([
-            __DIR__ . '/../config/courier.php' => config_path('courier.php'),
+            __DIR__ . '/../config/my-laravel-package.php' => config_path('my-laravel-package.php'),
         ]);
     }
 
