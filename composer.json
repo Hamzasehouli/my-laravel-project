@@ -9,7 +9,7 @@
     "license": "MIT",
     "extra": {
         "branch-alias": {
-            "master": "1.x"
+            "master": "1.0.3"
         },
         "laravel": {
             "providers": [
